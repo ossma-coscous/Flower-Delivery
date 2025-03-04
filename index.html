@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container">
@@ -72,7 +72,7 @@
                 </div>
               </div>
             </div>
-            <div class="swiper-pagination"></div>
+            <!-- Swiper Navigation Arrows -->
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
           </div>
@@ -84,17 +84,13 @@
     <script>
       const swiper = new Swiper(".swiper", {
         loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
         },
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
-        },
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
         },
       });
     </script>
