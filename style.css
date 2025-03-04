@@ -92,7 +92,7 @@ body {
     text-align: center;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    height: 480px; /* Smaller card height */
+    height: 540px; /* Smaller card height */
   }
   .slider-image img {
     margin-top: 20px;
